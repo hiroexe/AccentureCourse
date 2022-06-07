@@ -121,7 +121,7 @@ func findMissing(vector: [Character]) -> Character {
     for char in vector {
         num = char.asciiValue!
         tmpVector.append(num)
-      
+
     }
     var i = 0
     while (i < tmpVector.count - 1) {
