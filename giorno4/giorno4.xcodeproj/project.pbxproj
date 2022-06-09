@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		99BD48202851D3FE009918EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD481F2851D3FE009918EA /* main.swift */; };
 		99BD48272851D60E009918EA /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD48262851D60E009918EA /* utils.swift */; };
+		99BD4829285229DE009918EA /* ChessGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD4828285229DE009918EA /* ChessGame.swift */; };
+		99BD482B2852492C009918EA /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD482A2852492C009918EA /* Warrior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		99BD481C2851D3FE009918EA /* giorno4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = giorno4; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BD481F2851D3FE009918EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		99BD48262851D60E009918EA /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		99BD4828285229DE009918EA /* ChessGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessGame.swift; sourceTree = "<group>"; };
+		99BD482A2852492C009918EA /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				99BD481F2851D3FE009918EA /* main.swift */,
 				99BD48262851D60E009918EA /* utils.swift */,
+				99BD4828285229DE009918EA /* ChessGame.swift */,
+				99BD482A2852492C009918EA /* Warrior.swift */,
 			);
 			path = giorno4;
 			sourceTree = "<group>";
@@ -123,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BD4829285229DE009918EA /* ChessGame.swift in Sources */,
 				99BD48202851D3FE009918EA /* main.swift in Sources */,
+				99BD482B2852492C009918EA /* Warrior.swift in Sources */,
 				99BD48272851D60E009918EA /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
