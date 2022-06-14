@@ -28,5 +28,13 @@ class Aeroporto {
          return nil
         }
     }
+//    private func generaCodiceVolo() -> String {
+//        let myVettChar : [String] = ["a","b","c","d","e","f","7","8", "9"]
+//        var myCode : String = ""
+//        for _ in 1...10 {
+//            myCode += myVettChar[Int.random(in: 0...myVettChar.count - 1)]
+//        }
+//        return myCode
+//    }
         
 }
