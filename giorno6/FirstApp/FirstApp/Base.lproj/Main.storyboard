@@ -20,17 +20,40 @@
                                 <rect key="frame" x="0.0" y="-36" width="414" height="945"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HelloWorld" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en4-w1-ZlI">
-                                <rect key="frame" x="78" y="420" width="258" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="47"/>
-                                <color key="textColor" systemColor="systemPinkColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVo-iz-alO">
+                                <rect key="frame" x="20" y="705" width="374" height="107"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Buongiorno?" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
+                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="calcolaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2MC-KE-uAL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buongiorno" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en4-w1-ZlI">
+                                <rect key="frame" x="2" y="52" width="410" height="42"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="35"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JVo-iz-alO" secondAttribute="trailing" constant="20" id="ABE-dQ-vhj"/>
+                            <constraint firstItem="en4-w1-ZlI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Q1h-Yr-GcI"/>
+                            <constraint firstItem="en4-w1-ZlI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="SAK-mk-mbK"/>
+                            <constraint firstItem="JVo-iz-alO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="T2k-kQ-Hen"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JVo-iz-alO" secondAttribute="bottom" constant="50" id="et6-js-qHj"/>
+                            <constraint firstItem="JVo-iz-alO" firstAttribute="top" secondItem="en4-w1-ZlI" secondAttribute="bottom" constant="611" id="hy8-Rk-1da"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="en4-w1-ZlI" secondAttribute="trailing" constant="2" id="xlv-yo-h4U"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="en4-w1-ZlI" id="8PA-18-Gat"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
